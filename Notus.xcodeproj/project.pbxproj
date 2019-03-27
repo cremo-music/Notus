@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Notus::NotusPackageTests::ProductTarget" /* NotusPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_31 /* Build configuration list for PBXAggregateTarget "NotusPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_34 /* PBXTargetDependency */,
+			);
+			name = NotusPackageTests;
+			productName = NotusPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5BCAA6D422499396003953AA /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA6D322499396003953AA /* Event.swift */; };
+		5BCAA6D6224993DE003953AA /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA6D5224993DE003953AA /* Duration.swift */; };
+		5BCAA6D822499566003953AA /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA6D722499566003953AA /* Pitch.swift */; };
+		C5CCBB7E224AA4520016B218 /* MusicToMidi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCBB77224AA4520016B218 /* MusicToMidi.swift */; };
+		C5CCBB7F224AA4520016B218 /* MidiToMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCBB78224AA4520016B218 /* MidiToMusic.swift */; };
+		C5CCBB80224AA4520016B218 /* Validaters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCBB79224AA4520016B218 /* Validaters.swift */; };
+		C5CCBB81224AA4520016B218 /* MusicSequenceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCBB7A224AA4520016B218 /* MusicSequenceBuilder.swift */; };
+		C5CCBB82224AA4520016B218 /* MidiToNotusBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCBB7B224AA4520016B218 /* MidiToNotusBuilders.swift */; };
+		C5CCBB83224AA4520016B218 /* MidiPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCBB7D224AA4520016B218 /* MidiPlayer.swift */; };
+		C5E9E754224828910013043E /* MusicNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E736224828900013043E /* MusicNotation.swift */; };
+		C5E9E755224828910013043E /* DrumSolo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E738224828900013043E /* DrumSolo.swift */; };
+		C5E9E756224828910013043E /* LillePeterEdderkop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E739224828900013043E /* LillePeterEdderkop.swift */; };
+		C5E9E757224828910013043E /* Triol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E73A224828900013043E /* Triol.swift */; };
+		C5E9E758224828910013043E /* FrereJacques.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E73B224828900013043E /* FrereJacques.swift */; };
+		C5E9E759224828910013043E /* Chameleon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E73C224828900013043E /* Chameleon.swift */; };
+		C5E9E75A224828910013043E /* Counterpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E73D224828900013043E /* Counterpoint.swift */; };
+		C5E9E75B224828910013043E /* James.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E73E224828900013043E /* James.swift */; };
+		C5E9E75C224828910013043E /* ChordsAndBass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E740224828900013043E /* ChordsAndBass.swift */; };
+		C5E9E75D224828910013043E /* ThemeSoloInterlude.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E741224828900013043E /* ThemeSoloInterlude.swift */; };
+		C5E9E75E224828910013043E /* ThemeChordsAndBass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E742224828900013043E /* ThemeChordsAndBass.swift */; };
+		C5E9E75F224828910013043E /* ThemeMel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E743224828900013043E /* ThemeMel.swift */; };
+		C5E9E760224828910013043E /* SoloChordsAndBass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E744224828900013043E /* SoloChordsAndBass.swift */; };
+		C5E9E761224828910013043E /* Solo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E745224828900013043E /* Solo.swift */; };
+		C5E9E762224828910013043E /* CanineMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E746224828900013043E /* CanineMain.swift */; };
+		C5E9E763224828910013043E /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E748224828900013043E /* Channel.swift */; };
+		C5E9E764224828910013043E /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E749224828900013043E /* Instrument.swift */; };
+		C5E9E765224828910013043E /* MusicUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E74A224828900013043E /* MusicUtils.swift */; };
+		C5E9E766224828910013043E /* Percussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E74B224828900013043E /* Percussion.swift */; };
+		C5E9E767224828910013043E /* MusicNotationSimpleTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E74C224828900013043E /* MusicNotationSimpleTypes.swift */; };
+		C5E9E768224828910013043E /* UserPatchMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E74E224828910013043E /* UserPatchMap.swift */; };
+		C5E9E769224828910013043E /* FancyPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E750224828910013043E /* FancyPlayer.swift */; };
+		C5E9E76A224828910013043E /* DefaultPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E751224828910013043E /* DefaultPlayer.swift */; };
+		C5E9E76B224828910013043E /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E752224828910013043E /* Performance.swift */; };
+		C5E9E76C224828910013043E /* MusicToPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E753224828910013043E /* MusicToPerformance.swift */; };
+		C5E9E774224828EE0013043E /* MusicNotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E76E224828EE0013043E /* MusicNotationTests.swift */; };
+		C5E9E775224828EE0013043E /* UserPatchMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E770224828EE0013043E /* UserPatchMapTests.swift */; };
+		C5E9E776224828EE0013043E /* FancyPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E772224828EE0013043E /* FancyPlayerTests.swift */; };
+		C5E9E777224828EE0013043E /* DefaultPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9E773224828EE0013043E /* DefaultPlayerTests.swift */; };
+		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_41 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		OBJ_43 /* Notus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Notus::Notus::Product" /* Notus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5E9E7322248281F0013043E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Notus::Notus";
+			remoteInfo = Notus;
+		};
+		C5E9E733224828200013043E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Notus::NotusTests";
+			remoteInfo = NotusTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BCAA6D322499396003953AA /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		5BCAA6D5224993DE003953AA /* Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		5BCAA6D722499566003953AA /* Pitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
+		C5CCBB77224AA4520016B218 /* MusicToMidi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicToMidi.swift; sourceTree = "<group>"; };
+		C5CCBB78224AA4520016B218 /* MidiToMusic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiToMusic.swift; sourceTree = "<group>"; };
+		C5CCBB79224AA4520016B218 /* Validaters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validaters.swift; sourceTree = "<group>"; };
+		C5CCBB7A224AA4520016B218 /* MusicSequenceBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicSequenceBuilder.swift; sourceTree = "<group>"; };
+		C5CCBB7B224AA4520016B218 /* MidiToNotusBuilders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiToNotusBuilders.swift; sourceTree = "<group>"; };
+		C5CCBB7D224AA4520016B218 /* MidiPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiPlayer.swift; sourceTree = "<group>"; };
+		C5E9E736224828900013043E /* MusicNotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicNotation.swift; sourceTree = "<group>"; };
+		C5E9E738224828900013043E /* DrumSolo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrumSolo.swift; sourceTree = "<group>"; };
+		C5E9E739224828900013043E /* LillePeterEdderkop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LillePeterEdderkop.swift; sourceTree = "<group>"; };
+		C5E9E73A224828900013043E /* Triol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triol.swift; sourceTree = "<group>"; };
+		C5E9E73B224828900013043E /* FrereJacques.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrereJacques.swift; sourceTree = "<group>"; };
+		C5E9E73C224828900013043E /* Chameleon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chameleon.swift; sourceTree = "<group>"; };
+		C5E9E73D224828900013043E /* Counterpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counterpoint.swift; sourceTree = "<group>"; };
+		C5E9E73E224828900013043E /* James.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = James.swift; sourceTree = "<group>"; };
+		C5E9E740224828900013043E /* ChordsAndBass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordsAndBass.swift; sourceTree = "<group>"; };
+		C5E9E741224828900013043E /* ThemeSoloInterlude.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSoloInterlude.swift; sourceTree = "<group>"; };
+		C5E9E742224828900013043E /* ThemeChordsAndBass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeChordsAndBass.swift; sourceTree = "<group>"; };
+		C5E9E743224828900013043E /* ThemeMel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeMel.swift; sourceTree = "<group>"; };
+		C5E9E744224828900013043E /* SoloChordsAndBass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoloChordsAndBass.swift; sourceTree = "<group>"; };
+		C5E9E745224828900013043E /* Solo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solo.swift; sourceTree = "<group>"; };
+		C5E9E746224828900013043E /* CanineMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanineMain.swift; sourceTree = "<group>"; };
+		C5E9E748224828900013043E /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		C5E9E749224828900013043E /* Instrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
+		C5E9E74A224828900013043E /* MusicUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicUtils.swift; sourceTree = "<group>"; };
+		C5E9E74B224828900013043E /* Percussion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Percussion.swift; sourceTree = "<group>"; };
+		C5E9E74C224828900013043E /* MusicNotationSimpleTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicNotationSimpleTypes.swift; sourceTree = "<group>"; };
+		C5E9E74E224828910013043E /* UserPatchMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPatchMap.swift; sourceTree = "<group>"; };
+		C5E9E750224828910013043E /* FancyPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyPlayer.swift; sourceTree = "<group>"; };
+		C5E9E751224828910013043E /* DefaultPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPlayer.swift; sourceTree = "<group>"; };
+		C5E9E752224828910013043E /* Performance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
+		C5E9E753224828910013043E /* MusicToPerformance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicToPerformance.swift; sourceTree = "<group>"; };
+		C5E9E76E224828EE0013043E /* MusicNotationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicNotationTests.swift; sourceTree = "<group>"; };
+		C5E9E770224828EE0013043E /* UserPatchMapTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPatchMapTests.swift; sourceTree = "<group>"; };
+		C5E9E772224828EE0013043E /* FancyPlayerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyPlayerTests.swift; sourceTree = "<group>"; };
+		C5E9E773224828EE0013043E /* DefaultPlayerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPlayerTests.swift; sourceTree = "<group>"; };
+		"Notus::Notus::Product" /* Notus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Notus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Notus::NotusTests::Product" /* NotusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = NotusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_43 /* Notus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5CCBB75224AA4520016B218 /* NotusIO */ = {
+			isa = PBXGroup;
+			children = (
+				C5CCBB76224AA4520016B218 /* Midi */,
+				C5CCBB7C224AA4520016B218 /* Playback */,
+			);
+			path = NotusIO;
+			sourceTree = "<group>";
+		};
+		C5CCBB76224AA4520016B218 /* Midi */ = {
+			isa = PBXGroup;
+			children = (
+				C5CCBB77224AA4520016B218 /* MusicToMidi.swift */,
+				C5CCBB78224AA4520016B218 /* MidiToMusic.swift */,
+				C5CCBB79224AA4520016B218 /* Validaters.swift */,
+				C5CCBB7A224AA4520016B218 /* MusicSequenceBuilder.swift */,
+				C5CCBB7B224AA4520016B218 /* MidiToNotusBuilders.swift */,
+			);
+			path = Midi;
+			sourceTree = "<group>";
+		};
+		C5CCBB7C224AA4520016B218 /* Playback */ = {
+			isa = PBXGroup;
+			children = (
+				C5CCBB7D224AA4520016B218 /* MidiPlayer.swift */,
+			);
+			path = Playback;
+			sourceTree = "<group>";
+		};
+		C5E9E737224828900013043E /* MusicExamples */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9E73C224828900013043E /* Chameleon.swift */,
+				C5E9E73E224828900013043E /* James.swift */,
+				C5E9E73B224828900013043E /* FrereJacques.swift */,
+				C5E9E739224828900013043E /* LillePeterEdderkop.swift */,
+				C5E9E738224828900013043E /* DrumSolo.swift */,
+				C5E9E73A224828900013043E /* Triol.swift */,
+				C5E9E73D224828900013043E /* Counterpoint.swift */,
+				C5E9E73F224828900013043E /* Canine */,
+			);
+			path = MusicExamples;
+			sourceTree = "<group>";
+		};
+		C5E9E73F224828900013043E /* Canine */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9E746224828900013043E /* CanineMain.swift */,
+				C5E9E743224828900013043E /* ThemeMel.swift */,
+				C5E9E742224828900013043E /* ThemeChordsAndBass.swift */,
+				C5E9E741224828900013043E /* ThemeSoloInterlude.swift */,
+				C5E9E745224828900013043E /* Solo.swift */,
+				C5E9E744224828900013043E /* SoloChordsAndBass.swift */,
+				C5E9E740224828900013043E /* ChordsAndBass.swift */,
+			);
+			path = Canine;
+			sourceTree = "<group>";
+		};
+		C5E9E747224828900013043E /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9E748224828900013043E /* Channel.swift */,
+				C5E9E749224828900013043E /* Instrument.swift */,
+				C5E9E74B224828900013043E /* Percussion.swift */,
+				C5E9E74C224828900013043E /* MusicNotationSimpleTypes.swift */,
+				C5E9E74A224828900013043E /* MusicUtils.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		C5E9E74D224828910013043E /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9E74F224828910013043E /* Players */,
+				C5E9E74E224828910013043E /* UserPatchMap.swift */,
+				5BCAA6D322499396003953AA /* Event.swift */,
+				5BCAA6D5224993DE003953AA /* Duration.swift */,
+				C5E9E752224828910013043E /* Performance.swift */,
+				C5E9E753224828910013043E /* MusicToPerformance.swift */,
+				5BCAA6D722499566003953AA /* Pitch.swift */,
+			);
+			path = Performance;
+			sourceTree = "<group>";
+		};
+		C5E9E74F224828910013043E /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9E750224828910013043E /* FancyPlayer.swift */,
+				C5E9E751224828910013043E /* DefaultPlayer.swift */,
+			);
+			path = Players;
+			sourceTree = "<group>";
+		};
+		C5E9E76D224828EE0013043E /* MusicNotation */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9E76E224828EE0013043E /* MusicNotationTests.swift */,
+			);
+			path = MusicNotation;
+			sourceTree = "<group>";
+		};
+		C5E9E76F224828EE0013043E /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9E770224828EE0013043E /* UserPatchMapTests.swift */,
+				C5E9E771224828EE0013043E /* Players */,
+			);
+			path = Performance;
+			sourceTree = "<group>";
+		};
+		C5E9E771224828EE0013043E /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9E772224828EE0013043E /* FancyPlayerTests.swift */,
+				C5E9E773224828EE0013043E /* DefaultPlayerTests.swift */,
+			);
+			path = Players;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* NotusTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* NotusTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9E76D224828EE0013043E /* MusicNotation */,
+				C5E9E76F224828EE0013043E /* Performance */,
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			name = NotusTests;
+			path = Tests/NotusTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Notus::NotusTests::Product" /* NotusTests.xctest */,
+				"Notus::Notus::Product" /* Notus.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Notus */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Notus */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9E736224828900013043E /* MusicNotation.swift */,
+				C5CCBB75224AA4520016B218 /* NotusIO */,
+				C5E9E747224828900013043E /* Music */,
+				C5E9E74D224828910013043E /* Performance */,
+				C5E9E737224828900013043E /* MusicExamples */,
+			);
+			name = Notus;
+			path = Sources/Notus;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Notus::Notus" /* Notus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "Notus" */;
+			buildPhases = (
+				OBJ_21 /* Sources */,
+				OBJ_23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notus;
+			productName = Notus;
+			productReference = "Notus::Notus::Product" /* Notus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Notus::NotusTests" /* NotusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_36 /* Build configuration list for PBXNativeTarget "NotusTests" */;
+			buildPhases = (
+				OBJ_39 /* Sources */,
+				OBJ_42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_44 /* PBXTargetDependency */,
+			);
+			name = NotusTests;
+			productName = NotusTests;
+			productReference = "Notus::NotusTests::Product" /* NotusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Notus::SwiftPMPackageDescription" /* NotusPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "NotusPackageDescription" */;
+			buildPhases = (
+				OBJ_28 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotusPackageDescription;
+			productName = NotusPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					"Notus::Notus" = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Notus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Notus::Notus" /* Notus */,
+				"Notus::SwiftPMPackageDescription" /* NotusPackageDescription */,
+				"Notus::NotusPackageTests::ProductTarget" /* NotusPackageTests */,
+				"Notus::NotusTests" /* NotusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				C5E9E762224828910013043E /* CanineMain.swift in Sources */,
+				C5E9E763224828910013043E /* Channel.swift in Sources */,
+				C5E9E757224828910013043E /* Triol.swift in Sources */,
+				C5E9E75A224828910013043E /* Counterpoint.swift in Sources */,
+				C5E9E75E224828910013043E /* ThemeChordsAndBass.swift in Sources */,
+				C5E9E756224828910013043E /* LillePeterEdderkop.swift in Sources */,
+				5BCAA6D422499396003953AA /* Event.swift in Sources */,
+				C5E9E76B224828910013043E /* Performance.swift in Sources */,
+				C5E9E76C224828910013043E /* MusicToPerformance.swift in Sources */,
+				5BCAA6D6224993DE003953AA /* Duration.swift in Sources */,
+				C5E9E758224828910013043E /* FrereJacques.swift in Sources */,
+				5BCAA6D822499566003953AA /* Pitch.swift in Sources */,
+				C5E9E764224828910013043E /* Instrument.swift in Sources */,
+				C5CCBB83224AA4520016B218 /* MidiPlayer.swift in Sources */,
+				C5CCBB82224AA4520016B218 /* MidiToNotusBuilders.swift in Sources */,
+				C5E9E76A224828910013043E /* DefaultPlayer.swift in Sources */,
+				C5CCBB7E224AA4520016B218 /* MusicToMidi.swift in Sources */,
+				C5E9E755224828910013043E /* DrumSolo.swift in Sources */,
+				C5E9E767224828910013043E /* MusicNotationSimpleTypes.swift in Sources */,
+				C5E9E769224828910013043E /* FancyPlayer.swift in Sources */,
+				C5E9E765224828910013043E /* MusicUtils.swift in Sources */,
+				C5E9E761224828910013043E /* Solo.swift in Sources */,
+				C5CCBB80224AA4520016B218 /* Validaters.swift in Sources */,
+				C5E9E75C224828910013043E /* ChordsAndBass.swift in Sources */,
+				C5CCBB81224AA4520016B218 /* MusicSequenceBuilder.swift in Sources */,
+				C5E9E75F224828910013043E /* ThemeMel.swift in Sources */,
+				C5E9E766224828910013043E /* Percussion.swift in Sources */,
+				C5E9E768224828910013043E /* UserPatchMap.swift in Sources */,
+				C5E9E759224828910013043E /* Chameleon.swift in Sources */,
+				C5E9E760224828910013043E /* SoloChordsAndBass.swift in Sources */,
+				C5E9E75B224828910013043E /* James.swift in Sources */,
+				C5E9E75D224828910013043E /* ThemeSoloInterlude.swift in Sources */,
+				C5E9E754224828910013043E /* MusicNotation.swift in Sources */,
+				C5CCBB7F224AA4520016B218 /* MidiToMusic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_29 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				C5E9E774224828EE0013043E /* MusicNotationTests.swift in Sources */,
+				C5E9E775224828EE0013043E /* UserPatchMapTests.swift in Sources */,
+				C5E9E776224828EE0013043E /* FancyPlayerTests.swift in Sources */,
+				C5E9E777224828EE0013043E /* DefaultPlayerTests.swift in Sources */,
+				OBJ_41 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Notus::NotusTests" /* NotusTests */;
+			targetProxy = C5E9E733224828200013043E /* PBXContainerItemProxy */;
+		};
+		OBJ_44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Notus::Notus" /* Notus */;
+			targetProxy = C5E9E7322248281F0013043E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Notus.xcodeproj/Notus_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Notus;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Notus;
+			};
+			name = Debug;
+		};
+		OBJ_20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Notus.xcodeproj/Notus_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Notus;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Notus;
+			};
+			name = Release;
+		};
+		OBJ_26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Notus.xcodeproj/NotusTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = NotusTests;
+			};
+			name = Debug;
+		};
+		OBJ_38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Notus.xcodeproj/NotusTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = NotusTests;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_18 /* Build configuration list for PBXNativeTarget "Notus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_19 /* Debug */,
+				OBJ_20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "Notus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_25 /* Build configuration list for PBXNativeTarget "NotusPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_26 /* Debug */,
+				OBJ_27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_31 /* Build configuration list for PBXAggregateTarget "NotusPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_32 /* Debug */,
+				OBJ_33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_36 /* Build configuration list for PBXNativeTarget "NotusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_37 /* Debug */,
+				OBJ_38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

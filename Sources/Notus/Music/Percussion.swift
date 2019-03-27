@@ -1,0 +1,57 @@
+import Foundation
+
+// Percussion instruments are played in Channel 10 and are mapped to specific note numbers:
+// https://en.wikipedia.org/wiki/General_MIDI#Percussion
+
+// drum kit
+let bassDrum2: Pitch        = (.b, 1)
+let bassDrum1: Pitch        = (.c, 2)
+let rimshot: Pitch          = (.cs, 2)
+let snareDrum1: Pitch       = (.d, 2)
+let handClap: Pitch         = (.ds, 2)
+let snareDrum2: Pitch       = (.e, 2)
+let lowFloorTom: Pitch      = (.f, 2)
+let highFloorTom: Pitch     = (.g, 2)
+let lowTom: Pitch           = (.a, 2)
+let midLowTom: Pitch        = (.b, 2)
+let hiMidTom: Pitch         = (.c, 3)
+let highTom: Pitch          = (.d, 3)
+
+// cymbals
+let closedHihat: Pitch      = (.fs, 2)
+let pedalHihat: Pitch       = (.gs, 2)
+let openHihat: Pitch        = (.aas, 2)
+let crashCymbal1: Pitch     = (.cs, 3)
+let rideCymbal1: Pitch      = (.ds, 3)
+let chineseCymbal: Pitch    = (.e, 3)
+let rideBell: Pitch         = (.f, 3)
+let tambourine: Pitch       = (.fs, 3)
+let splashCymbal: Pitch     = (.g, 3)
+let cowbell: Pitch          = (.gs, 3)
+let crashCymbal2: Pitch     = (.a, 3)
+let vibraslap: Pitch        = (.aas, 3)
+let rideCymbal2: Pitch      = (.b, 3)
+
+// percussion
+let highBongo: Pitch        = (.c, 4)
+let lowBongo: Pitch         = (.cs, 4)
+let muteHighConga: Pitch    = (.d, 4)
+let openHighConga: Pitch    = (.ds, 4)
+let lowConga: Pitch         = (.e, 4)
+let highTimbale: Pitch      = (.f, 4)
+let lowTimbale: Pitch       = (.fs, 4)
+let highAgogo: Pitch        = (.g, 4)
+let lowAgogo: Pitch         = (.gs, 4)
+let cabasa: Pitch           = (.a, 4)
+let maracas: Pitch          = (.aas, 4)
+let shortWhistle: Pitch     = (.b, 4)
+let longWhistle: Pitch      = (.c, 5)
+let shortGuiro: Pitch       = (.cs, 5)
+let longGuiro: Pitch        = (.d, 5)
+let claves: Pitch           = (.ds, 5)
+let highWoodBlock: Pitch    = (.e, 5)
+let lowWoodBlock: Pitch     = (.f, 5)
+let muteCuica: Pitch        = (.fs, 5)
+let openCuica: Pitch        = (.g, 5)
+let muteTriangle: Pitch     = (.gs, 5)
+let openTriangle: Pitch     = (.a, 5)

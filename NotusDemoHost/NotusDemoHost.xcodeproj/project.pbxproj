@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C55137E322215C8200780518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55137E222215C8200780518 /* AppDelegate.swift */; };
+		C55137E522215C8200780518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55137E422215C8200780518 /* ViewController.swift */; };
+		C55137E822215C8200780518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55137E622215C8200780518 /* Main.storyboard */; };
+		C55137EA22215C8D00780518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55137E922215C8D00780518 /* Assets.xcassets */; };
+		C55137ED22215C8D00780518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55137EB22215C8D00780518 /* LaunchScreen.storyboard */; };
+		C55138412221B71400780518 /* Notus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C55137FC22215D8E00780518 /* Notus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C551384C2223218800780518 /* Airfont_340.dls in Resources */ = {isa = PBXBuildFile; fileRef = C551384B2223218800780518 /* Airfont_340.dls */; };
+		C57DF9FC223560D900D33FDD /* CanineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57DF9FB223560D900D33FDD /* CanineViewController.swift */; };
+		C5A71CA822344E7F007A8B5A /* FrereJacquesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A71CA722344E7F007A8B5A /* FrereJacquesController.swift */; };
+		C5A71CAA22344E91007A8B5A /* LillePeterEdderkopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A71CA922344E91007A8B5A /* LillePeterEdderkopViewController.swift */; };
+		C5A71CAC22344EA2007A8B5A /* ChameleonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A71CAB22344EA2007A8B5A /* ChameleonViewController.swift */; };
+		C5A71CAE223468EC007A8B5A /* InterpretationConverters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A71CAD223468EC007A8B5A /* InterpretationConverters.swift */; };
+		C5CCBB8E224AAF070016B218 /* ReadWriteMidi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCBB8B224AAF070016B218 /* ReadWriteMidi.swift */; };
+		C5CCBB90224AAF070016B218 /* PlayerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCBB8D224AAF070016B218 /* PlayerHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C55138442221B71500780518 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C55138412221B71400780518 /* Notus.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C55137DF22215C8100780518 /* NotusDemoHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotusDemoHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55137E222215C8200780518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C55137E422215C8200780518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C55137E722215C8200780518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C55137E922215C8D00780518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55137EC22215C8D00780518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C55137EE22215C8D00780518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55137FC22215D8E00780518 /* Notus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Notus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55137FE22215D8E00780518 /* NotusIOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NotusIOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C551384B2223218800780518 /* Airfont_340.dls */ = {isa = PBXFileReference; lastKnownFileType = file; path = Airfont_340.dls; sourceTree = "<group>"; };
+		C57DF9FB223560D900D33FDD /* CanineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanineViewController.swift; sourceTree = "<group>"; };
+		C5A71CA722344E7F007A8B5A /* FrereJacquesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrereJacquesController.swift; sourceTree = "<group>"; };
+		C5A71CA922344E91007A8B5A /* LillePeterEdderkopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LillePeterEdderkopViewController.swift; sourceTree = "<group>"; };
+		C5A71CAB22344EA2007A8B5A /* ChameleonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChameleonViewController.swift; sourceTree = "<group>"; };
+		C5A71CAD223468EC007A8B5A /* InterpretationConverters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpretationConverters.swift; sourceTree = "<group>"; };
+		C5CCBB8B224AAF070016B218 /* ReadWriteMidi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadWriteMidi.swift; sourceTree = "<group>"; };
+		C5CCBB8D224AAF070016B218 /* PlayerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55137DC22215C8100780518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55137D622215C8100780518 = {
+			isa = PBXGroup;
+			children = (
+				C5CCBB89224AAF070016B218 /* Sources */,
+				C55137E122215C8200780518 /* NotusDemoHost */,
+				C55137E022215C8100780518 /* Products */,
+				C55137FB22215D8E00780518 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C55137E022215C8100780518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55137DF22215C8100780518 /* NotusDemoHost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55137E122215C8200780518 /* NotusDemoHost */ = {
+			isa = PBXGroup;
+			children = (
+				C551383922219DAA00780518 /* Resources */,
+				C55137E222215C8200780518 /* AppDelegate.swift */,
+				C55137E422215C8200780518 /* ViewController.swift */,
+				C55137E622215C8200780518 /* Main.storyboard */,
+				C55137E922215C8D00780518 /* Assets.xcassets */,
+				C55137EB22215C8D00780518 /* LaunchScreen.storyboard */,
+				C55137EE22215C8D00780518 /* Info.plist */,
+				C5A71CA722344E7F007A8B5A /* FrereJacquesController.swift */,
+				C5A71CA922344E91007A8B5A /* LillePeterEdderkopViewController.swift */,
+				C5A71CAB22344EA2007A8B5A /* ChameleonViewController.swift */,
+				C57DF9FB223560D900D33FDD /* CanineViewController.swift */,
+				C5A71CAD223468EC007A8B5A /* InterpretationConverters.swift */,
+			);
+			path = NotusDemoHost;
+			sourceTree = "<group>";
+		};
+		C55137FB22215D8E00780518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C55137FC22215D8E00780518 /* Notus.framework */,
+				C55137FE22215D8E00780518 /* NotusIOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C551383922219DAA00780518 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C551384B2223218800780518 /* Airfont_340.dls */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5CCBB89224AAF070016B218 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C5CCBB8A224AAF070016B218 /* NotusDemoHost */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		C5CCBB8A224AAF070016B218 /* NotusDemoHost */ = {
+			isa = PBXGroup;
+			children = (
+				C5CCBB8B224AAF070016B218 /* ReadWriteMidi.swift */,
+				C5CCBB8D224AAF070016B218 /* PlayerHandler.swift */,
+			);
+			path = NotusDemoHost;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55137DE22215C8100780518 /* NotusDemoHost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55137F122215C8D00780518 /* Build configuration list for PBXNativeTarget "NotusDemoHost" */;
+			buildPhases = (
+				C55137DB22215C8100780518 /* Sources */,
+				C55137DC22215C8100780518 /* Frameworks */,
+				C55137DD22215C8100780518 /* Resources */,
+				C55138442221B71500780518 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotusDemoHost;
+			productName = NotusDemoHost;
+			productReference = C55137DF22215C8100780518 /* NotusDemoHost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55137D722215C8100780518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Livetake IVS";
+				TargetAttributes = {
+					C55137DE22215C8100780518 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = C55137DA22215C8100780518 /* Build configuration list for PBXProject "NotusDemoHost" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55137D622215C8100780518;
+			productRefGroup = C55137E022215C8100780518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55137DE22215C8100780518 /* NotusDemoHost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55137DD22215C8100780518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55137ED22215C8D00780518 /* LaunchScreen.storyboard in Resources */,
+				C55137EA22215C8D00780518 /* Assets.xcassets in Resources */,
+				C55137E822215C8200780518 /* Main.storyboard in Resources */,
+				C551384C2223218800780518 /* Airfont_340.dls in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55137DB22215C8100780518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CCBB8E224AAF070016B218 /* ReadWriteMidi.swift in Sources */,
+				C5A71CAC22344EA2007A8B5A /* ChameleonViewController.swift in Sources */,
+				C5A71CAA22344E91007A8B5A /* LillePeterEdderkopViewController.swift in Sources */,
+				C5A71CAE223468EC007A8B5A /* InterpretationConverters.swift in Sources */,
+				C55137E522215C8200780518 /* ViewController.swift in Sources */,
+				C5A71CA822344E7F007A8B5A /* FrereJacquesController.swift in Sources */,
+				C5CCBB90224AAF070016B218 /* PlayerHandler.swift in Sources */,
+				C55137E322215C8200780518 /* AppDelegate.swift in Sources */,
+				C57DF9FC223560D900D33FDD /* CanineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C55137E622215C8200780518 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55137E722215C8200780518 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C55137EB22215C8D00780518 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55137EC22215C8D00780518 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55137EF22215C8D00780518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C55137F022215C8D00780518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55137F222215C8D00780518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2668XQLTT;
+				INFOPLIST_FILE = NotusDemoHost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cremomusic.NotusDemoHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C55137F322215C8D00780518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2668XQLTT;
+				INFOPLIST_FILE = NotusDemoHost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cremomusic.NotusDemoHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55137DA22215C8100780518 /* Build configuration list for PBXProject "NotusDemoHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55137EF22215C8D00780518 /* Debug */,
+				C55137F022215C8D00780518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55137F122215C8D00780518 /* Build configuration list for PBXNativeTarget "NotusDemoHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55137F222215C8D00780518 /* Debug */,
+				C55137F322215C8D00780518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55137D722215C8100780518 /* Project object */;
+}

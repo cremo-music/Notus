@@ -1,0 +1,11 @@
+.DS_Store
+
+xcuserdata/
+*.xccheckout
+.bundle/
+
+/.build
+/Packages
+*.resolved
+
+Airfont_340.dls
