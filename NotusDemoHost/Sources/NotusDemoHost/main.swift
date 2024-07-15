@@ -12,8 +12,8 @@ do {
     let (music, _) = try james()
     print(music)
 }
-catch {
-    print("Uha! Something terrible occurred.")
+catch let error {
+    print("Uha! Something terrible occurred: \(error)")
 }
 
 #endif

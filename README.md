@@ -98,22 +98,27 @@ The **Notus** framework is grouped into 2 parts:
 The following files are a good starting point to get used to the strange, recursive world of Notus:
 
 ```verbatim
-Notus
-    MusicNotation.swift: The Notus domain-specific language
-    Performance/
-        MusicToPerformance.swift: conversion from Music to Performance
-        UserPatchMap.swift: defines mapping between Staff, Channel and Instrument
-        Performance.swift: defines constructs for describing music as `Performance`, the most low-level representation available in Notus.This representation can then be transformed from `Performance` to Midi or other formats.
-        Players/
-            DefaultPlayer.swift: simple player handling (some) interpretations
-            FancyPlayer.swift: more advanced player handling dynamics, articulations and tempos
-    MusicExamples/
-NotusIO/
-     Midi/
-         MusicToMidi.swift : Convert from Music to Midi
-         MidiToMusic.swift : Convert from Midi to Music
-     Playback/
-         MIDIPlayer : Playback Midi
+├── Sources
+│   └── Notus
+│       ├── MusicExamples
+│       │   ├── Canine
+│       │   ├── Chameleon.swift
+│       │   ├── DrumSolo.swift
+│       │   ├── James.swift
+│       ├── MusicNotation.swift: The Notus domain-specific language
+│       ├── NotusIO
+│       │   ├── Midi
+│       │   │   ├── MidiToMusic.swift: Convert from Midi to Music
+│       │   │   ├── MusicToMidi.swift: Convert from Music to Midi
+│       │   └── Playback
+│       │       └── MidiPlayer.swift: Playback Midi
+│       └── Performance
+│           ├── MusicToPerformance.swift: conversion from Music to Performance
+│           ├── Performance.swift: defines constructs for describing music as `Performance`, the most low-level representation available in Notus. This representation can then be transformed from `Performance` to Midi or other formats.
+│           ├── UserPatchMap.swift: defines mappings between `Staff`, `Channel` and `Instrument`
+│           ├── Players
+│           │   ├── DefaultPlayer.swift: simple player handling (some) interpretations
+│           │   └── FancyPlayer.swift: more advanced player handling dynamics, articulations and tempos
 ```
 
 ## Installation
@@ -121,7 +126,7 @@ NotusIO/
 
 The Swift Package Manager is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
-Once you have your Swift package set up, adding Notus as a dependency si done by adding the package URL to your Package.swift.
+Once you have your Swift package set up, adding Notus as a dependency is done by adding the package URL to your Package.swift.
 
 **Swift 5**
 ```swift
@@ -137,7 +142,7 @@ There are a number of examples showing how Notus can be used. There are two ways
 ### XCode
 Open the workspace for NotusDemoHost called `NotusDemoHost.xcworkspace` inside the `NotusDemoHost` folder and simply run the project on an iOS device.
 
-To run on iOS with proper MIDI sounds, you need a soundfont. We recommend the Airfont 340, which you can download form [here](https://www.ronimusic.com/smp_ios_dls_files.htm). This file should be placed in the `Resources` folder as usual.
+To run on iOS with proper MIDI sounds, you need a soundfont. We recommend the Airfont 340, which you can download [here](https://www.ronimusic.com/smp_ios_dls_files.htm). This file should be placed in the `Resources` folder as usual.
 
 ### Command line
 Open a Terminal and go to the `NotusDemoHost` folder. To run:
@@ -150,15 +155,10 @@ On Linux, it will print out an example in Notus language.
 ## Known issues
 
 * Importing triplets from MIDI files results in empty duration when the triplet contains identical pitches.
-* FancyPlayer: legato interpretation should bind notes together but not overlap.
 
 ## Start Contributing
 
 This is an open-source project, please contact us if you are interested in contributing!
-
-## Disclaimer
-
-This project is work in progress!
 
 ## License
 See [LICENSE](LICENSE)
